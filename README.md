@@ -27,16 +27,16 @@ The Objectives of the project are as follows:
 - Temporary driving license number after passing the driving test.
 - Making the entire system online.
 
-## Architecture
+## ARCHITECTURE
 ![alt text](images/image.png)
 
-## Activity Diagram
+## ACTIVITY DIAGRAM
 ![alt text](<images/image copy.png>)
 
-## UseCase Diagram
+## USECASE DIAGRAM
 ![usecase](images/image-2.png)
 
-## Interface(sample images)
+## INTERFACE(sample images)
 ![alt text](images/image-3.png)
 ![alt text](images/image-4.png)
 ![alt text](images/image-5.png)
