@@ -28,29 +28,29 @@ The Objectives of the project are as follows:
 - Making the entire system online.
 
 ## Architecture
-![architecture](image.png)
+![alt text](images/image.png)
 
 ## Activity Diagram
-![Activity diagram](image-1.png)
+![Activity diagram](images/image-1.png)
 
 ## UseCase Diagram
-![usecase](image-2.png)
+![usecase](images/image-2.png)
 
 ## Interface(sample images)
-![alt text](image-3.png)
-![alt text](image-4.png)
-![alt text](image-5.png)
-![alt text](image-6.png)
-![alt text](image-7.png)
-![alt text](image-8.png)
-![alt text](image-9.png)
+![alt text](images/image-3.png)
+![alt text](images/image-4.png)
+![alt text](images/image-5.png)
+![alt text](images/image-6.png)
+![alt text](images/image-7.png)
+![alt text](images/image-8.png)
+![alt text](images/image-9.png)
 
 ## DATABASE:
 - Tables Structure
-![alt text](image-10.png)
-![alt text](image-11.png)
-![alt text](image-12.png)
-![alt text](image-13.png)
+![alt text](images/image-10.png)
+![alt text](images/image-11.png)
+![alt text](images/image-12.png)
+![alt text](images/image-13.png)
 
 ## FUTURE SCOPE:
 The Project has a good future scope as this project is only developed for a small area of people. The Project can expand by providing services to the entire state. Fingerprint identification can be included to verify the users before posting driving test results. Newer technologies could be included to get better user verification better and easier  interaction and increase the overall efficiency of the project.
