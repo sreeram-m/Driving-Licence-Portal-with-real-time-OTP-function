@@ -31,7 +31,7 @@ The Objectives of the project are as follows:
 ![alt text](images/image.png)
 
 ## Activity Diagram
-![Activity diagram](images/image-1.png)
+![alt text](<images/image copy.png>)
 
 ## UseCase Diagram
 ![usecase](images/image-2.png)
