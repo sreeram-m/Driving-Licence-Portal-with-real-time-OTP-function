@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="menu.css">	<body>
+	<title>LLR Application</title>
+</head>
+<body>
+	<body>
+<div class="navbar" >
+	<h1 style="float: left;color: white;">Driving license portal</h1>
+  <a href="#">Employee login</a>
+  <a href="login.html">Logout</a>
+  <a href="#news">Helpdesk</a>
+  <div class="dropdown">
+    <button class="dropbtn">Driving License 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">DL slot booking</a>
+      <a href="#">Change of address</a>
+      <a href="#">Download license</a>
+    </div>
+  </div> 
+  <div class="dropdown">
+    <button class="dropbtn">Learner's License 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">LLR Application</a>
+      <a href="#">LLR test</a>
+      <a href="#">LLR correction</a>
+    </div>
+  </div> 
+   <a href="home.html">Home</a>
+</div>
+	<h2 style="text-align: center;color: green;">LLR Application</h2>
+	<form name="llr" >
+		<table>
+			<tr>
+				<td>Full Name:</td>
+				<td><input type="text" name="fname"></td>
+			</tr>
+			<tr>
+				<td>Father's Name:</td>
+				<td><input type="text" name="fathername"></td>
+			</tr>
+			<tr>
+				<td>Aadhar Number:</td>
+				<td><input type="text" name="aadhar"></td>
+			</tr>
+			<tr>
+				<td>Mobile Number:</td>
+				<td><input type="text" name="mobile" id="mobile"></td>
+			</tr>
+			<tr>
+				<td>DOB:</td>
+				<td><select name="year">
+				  <option value="">---Select year---</option>
+				  <?php for ($i = 1980; $i < date('Y'); $i++) : ?>
+				  <option value="<?php echo $i; ?>"><?php echo $i; ?></option>
+				  <?php endfor; ?>
+				</select>
+
+				<select name="month">
+				  <option value="">---Select month---</option>
+				  <?php for ($i = 1; $i <= 12; $i++) : ?>
+				  <option value="<?php echo ($i < 10) ? '0'.$i : $i; ?>"><?php echo $i; ?></option>
+				  <?php endfor; ?>
+				</select>
+
+				<select name="date">
+				  <option value="">---Select date---</option>
+				  <?php for ($i = 1; $i <= 31; $i++) : ?>
+				  <option value="<?php echo ($i < 10) ? '0'.$i : $i; ?>"><?php echo $i; ?></option>
+				  <?php endfor; ?></select></td>
+			</tr>
+			<tr>
+				<td>Address:</td>
+				<td><input type="text" name="address"></td>
+			</tr>
+			<tr>
+				<td>City:</td>
+				<td><input type="text" name="address"></td>
+			</tr>
+			<tr>
+				<td>Pincode</td>
+				<td><input type="text" name="pincode"></td>
+			</tr>
+			
+</body>
+</html>
