@@ -15,7 +15,7 @@ class Controller
                 
                 $mobile_number = $_POST['mobile_number'];
                 
-                $apiKey = urlencode('MWE2Yzc2M2E0ZWZlN2I2Y2QzODkwZjg4M2JjYmFhNTI=');
+                $apiKey = urlencode('your api');
                 $Textlocal = new Textlocal(false, false, $apiKey);
                 
                 $numbers = array(

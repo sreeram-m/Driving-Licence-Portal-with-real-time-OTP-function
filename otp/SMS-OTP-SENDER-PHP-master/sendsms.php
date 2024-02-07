@@ -3,7 +3,7 @@ require('textlocal.class.php');
 
 $textlocal = new Textlocal('demo@txtlocal.com', 'apidemo123');
 
-$numbers = array(917095313072);
+$numbers = array(91xxxxxxxxx);
 $sender = 'Textlocal';
 $message = 'This is a message';
 

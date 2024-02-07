@@ -5,7 +5,7 @@ switch ($_POST["action"]) {
   case "send_otp":
 
   $curl = curl_init();
-  $api = "4f73c9b3-be02-11eb-8089-0200cd936042";  // Enter your API key get one on https://2factor.in
+  $api = "your api";  // Enter your API key get one on https://2factor.in
   $mobile_number = $_POST['mobile_number'];
   $customer_name = $_POST['customer_name'];
   $customer_email = $_POST['customer_email'];
